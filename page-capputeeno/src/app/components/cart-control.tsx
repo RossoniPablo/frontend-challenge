@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 
 import { useRouter } from "next/navigation";
 import { useLocalStorage } from "../hooks/useLocalStorage";
-import { CartIcon } from "./cart-icon";
+import { CartIcon } from "./icons/cart-icon";
 
 const CartCount = styled.span`
     width: 17px;
