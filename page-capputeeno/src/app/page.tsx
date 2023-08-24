@@ -1,8 +1,9 @@
 "use client"
 import { QueryClient, QueryClientProvider } from 'react-query'
 import { FilterBar } from './components/filter-bar'
-import { ProductsList } from './components/products-list'
+
 import styles from './page.module.css'
+import { ProductsList } from './components/products-list'
 
 export default function Home() {
   const client = new QueryClient()
